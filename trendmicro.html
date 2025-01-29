@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #f5f7f9;
+            padding: 20px;
+        }
+
+        .dns-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+        }
+
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #4a5568;
+            font-size: 20px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background: #4299e1;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #4a5568;
+        }
+
+        tr:hover {
+            background: #f8fafc;
+        }
+
+        .a-records th { background: #4299e1; }
+        .mx-records th { background: #48bb78; }
+        .ns-records th { background: #ed8936; }
+        .txt-records th { background: #667eea; }
+    </style>
+</head>
+<body>
+    <div class="dns-container">
+        <h1>DNS Records Analysis for trendmicro.com</h1>
+
+        <div class="section">
+            <h2>A Records</h2>
+            <table class="a-records">
+                <tr>
+                    <th>Record Type</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>150.70.232.194</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>MX Records</h2>
+            <table class="mx-records">
+                <tr>
+                    <th>Priority</th>
+                    <th>Mail Server</th>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>sjdc-itpf-01.udc.trendmicro.com</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>sjdc-itpf-02.udc.trendmicro.com</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>sjdc-itpf-03.udc.trendmicro.com</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>sjdc-itpf-04.udc.trendmicro.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>NS Records</h2>
+            <table class="ns-records">
+                <tr>
+                    <th>Nameserver</th>
+                </tr>
+                <tr><td>a5-67.akam.net</td></tr>
+                <tr><td>a22-66.akam.net</td></tr>
+                <tr><td>a3-66.akam.net</td></tr>
+                <tr><td>a1-159.akam.net</td></tr>
+                <tr><td>a18-64.akam.net</td></tr>
+                <tr><td>a24-65.akam.net</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Notable TXT Records</h2>
+            <table class="txt-records">
+                <tr>
+                    <th>Service</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td>SPF</td>
+                    <td>Email authentication policy</td>
+                </tr>
+                <tr>
+                    <td>Google</td>
+                    <td>Multiple site verifications</td>
+                </tr>
+                <tr>
+                    <td>Microsoft</td>
+                    <td>Domain verification</td>
+                </tr>
+                <tr>
+                    <td>Atlassian</td>
+                    <td>Domain verification</td>
+                </tr>
+                <tr>
+                    <td>DocuSign</td>
+                    <td>Domain verification</td>
+                </tr>
+                <tr>
+                    <td>Adobe</td>
+                    <td>IDP site verification</td>
+                </tr>
+                <tr>
+                    <td>Cisco</td>
+                    <td>CI domain verification</td>
+                </tr>
+                <tr>
+                    <td>MongoDB</td>
+                    <td>Site verification</td>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>Domain verification</td>
+                </tr>
+                <tr>
+                    <td>Dynatrace</td>
+                    <td>Site verification</td>
+                </tr>
+                <tr>
+                    <td>Salesforce</td>
+                    <td>Organization ID</td>
+                </tr>
+                <tr>
+                    <td>GlobalSign</td>
+                    <td>Multiple domain verifications</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

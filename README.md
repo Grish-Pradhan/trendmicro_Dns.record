@@ -26,6 +26,49 @@ The following sections are included in the analysis:
    - Displays notable TXT records used for domain verification and service authentication.
    - Includes services such as SPF, Google, Microsoft, Apple, and others.
 
+## Output Example
+
+Here’s a sample output of the DNS record analysis:
+
+### A Records
+| Record Type | Value            |
+|-------------|------------------|
+| A           | 150.70.232.194   |
+
+### MX Records
+| Priority | Mail Server                             |
+|----------|-----------------------------------------|
+| 10       | sjdc-itpf-01.udc.trendmicro.com         |
+| 10       | sjdc-itpf-02.udc.trendmicro.com         |
+| 10       | sjdc-itpf-03.udc.trendmicro.com         |
+| 10       | sjdc-itpf-04.udc.trendmicro.com         |
+
+### NS Records
+| Nameserver             |
+|------------------------|
+| a5-67.akam.net          |
+| a22-66.akam.net         |
+| a3-66.akam.net          |
+| a1-159.akam.net         |
+| a18-64.akam.net         |
+| a24-65.akam.net         |
+
+### Notable TXT Records
+| Service    | Purpose                                  |
+|------------|------------------------------------------|
+| SPF        | Email authentication policy             |
+| Google     | Multiple site verifications             |
+| Microsoft  | Domain verification                     |
+| Atlassian  | Domain verification                     |
+| DocuSign   | Domain verification                     |
+| Adobe      | IDP site verification                   |
+| Cisco      | CI domain verification                  |
+| MongoDB    | Site verification                       |
+| Apple      | Domain verification                     |
+| Dynatrace  | Site verification                       |
+| Salesforce | Organization ID                         |
+| GlobalSign | Multiple domain verifications           |
+
 ## How to Use
 
 1. **Clone the Repository**:

@@ -73,7 +73,7 @@ Here’s a sample output of the DNS record analysis:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Grish-Pradhan/dns-records-analysis.git
+   git clone https://github.com/Grish-Pradhan/trendmicro_Dns.record/trendmicro.html
    ```
 
 2. **Open the HTML File**:
